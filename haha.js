@@ -94,3 +94,25 @@ document.addEventListener('DOMContentLoaded', function() {
     cursor.style.display = 'none';
   });
 });
+
+
+
+function typeWriter(text, i) {
+  if (i < text.length) {
+    document.getElementById("typewriter").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(function() { typeWriter(text, i); }, 50);
+  }
+}
+
+typeWriter(text, 0);
+// Register the service worker
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+    .then(function(registration) {
+      console.log('Service Worker registered with scope:', registration.scope);
+    })
+    .catch(function(error) {
+      console.error('Service Worker registration failed:', error);
+    });
+}
