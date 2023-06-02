@@ -49,14 +49,15 @@ section {
 
 .main {
   width: 100%;
-  min-height: 100vh;
-  display: flex;
+  
   align-items: center;
-  background: url(images/ee.jpg) no-repeat;
+  background: url(images/fajer.jpg) no-repeat;
   background-color: #b6b6b6;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  /* Adjust the value as per your requirement */
+
 }
 
 .main h2 {
