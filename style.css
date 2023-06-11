@@ -51,7 +51,7 @@ section {
   width: 100%;
   
   align-items: center;
-  background: url(images/20230606_063414.jpg) no-repeat;
+  background: url(images/20230606_063414.jpg)
   background-color: #b6b6b6;
   background-size: cover;
   background-position: center;
