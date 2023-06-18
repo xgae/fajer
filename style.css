@@ -49,14 +49,12 @@ section {
 
 .main {
   width: 100%;
-  
-  align-items: center;
-  background: url(images/fajer\ with\ exam2.jpg)
+  min-height: 50vh;
+
+  background: url(images/fajer\ with\ exam2.jpg) no-repeat;
   background-color: #b6b6b6;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  /* Adjust the value as per your requirement */
 
 }
 
