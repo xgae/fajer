@@ -1,0 +1,14 @@
+{
+    "fajer's app ": "اسم التطبيق",
+    "fajer": "الاسم المختصر",
+    "https://xgae.github.io/fajer/": "/",
+    "display": "standalone",
+    "icons": [{
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+  }
+  
