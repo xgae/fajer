@@ -13,7 +13,7 @@ font-family: 'Kaushan Script', cursive;
 
 
 header {
-  background-color: #f0f0f0;
+  background-color: #253745;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -49,18 +49,19 @@ section {
 
 .main {
   width: 100%;
-  min-height: 50vh;
-
-  background: url(images/fajer\ with\ exam2.jpg) no-repeat;
-  background-color: #b6b6b6;
+  height: 15%;
+  align-items: center;
+  background: url(images/IMG_4913.JPG) no-repeat;
+  background-color: #253745;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
+  object-position: left top;
+background-size: 90%;
 }
 
 .main h2 {
-  color: #fff;
+  color: #9b9b9b;
   font-size: 1.4em;
   font-weight: 500;
 }
@@ -74,7 +75,7 @@ section {
 }
 
 .main h3 {
-  color: #fff;
+  color: #9b9b9b;
   font-size: 2em;
   font-weight: 700;
   letter-spacing: 1px;
@@ -83,8 +84,8 @@ section {
 }
 
 .main-btn {
-  color: #fff;
-  background-color: #3af4cc;
+  color: #9ba89b;
+  background-color: #253745;
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 600;
@@ -97,12 +98,12 @@ section {
 }
 
 .main-btn:hover {
-  background-color: #0a49f6;
+  background-color: #000000;
   transform: scale(1.1);
 }
 
 .social-icon a {
-  color: #fff;
+  color: #9ba8ab;
   font-size: 1.7em;
   padding-right: 30px;
 }
@@ -124,10 +125,11 @@ section {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: #06141B;
 }
 
 .card {
-  background-color: #fff;
+  background-color: #11212D;
   width: 21.25em;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   border-radius: 10px;
@@ -141,13 +143,11 @@ section {
 }
 
 .card .icon {
-  color: #3a6cf4;
+  color: #06141b;
   font-size: 8em;
   text-align: center;
 }
-.card.dark {
-  background-color: black;
-}
+
 
 .info {
   text-align: center;
@@ -157,24 +157,22 @@ section {
 
 
 .contact .info h3{
-    color: #000000;
+    color: #4A5C6A;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
 }
 
 .projects {
-    background-color: white;
+background-color: #06141b;
 }
-.projects.dark {
-  background-color: #1a1a1a;
-}
+
 .projects .content{
     margin-top: 30px;
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: #11212D;
     min-height: 14em;
     width: 23em;
     overflow: hidden;
@@ -192,11 +190,7 @@ section {
 .project-card:hover .project-image {
     opacity: 0.9;
  }
- .project-card.dark {
-    background-color: black;
-    color: white;
-    box-shadow: 0 5px 25px rgba(247, 247, 247, 0.85);
- }
+
 
 .project-image img{
     width: 100%
@@ -210,10 +204,7 @@ section {
     font-size: 0.8em;
     color: #000;
 }
-.project-category.dark {
-  color: white;
-  font-size: 0.8em;
-}
+
 .project-title {
     display: flex;
     justify-content: space-between;
@@ -243,7 +234,7 @@ section {
 
 .footer {
     background-color: #000016;
-    color: #fff;
+    color: #0b114b;
     padding: 2em;
     display: flex;
     justify-content: space-between;
@@ -287,10 +278,10 @@ section {
     position: relative;
     max-width: 500px;
     width: 90%;
-    background-color: #fff;
+    background-color: #253745;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+   
     text-align: center;
     opacity: 5;
     transform: translateY(20px);
@@ -323,7 +314,7 @@ section {
     font-weight: 300;
     text-align: center;
     font-size: 18px;
-    color: #676767;
+    color: #253745;
   }
   .frame {
     width: 90%;
@@ -336,7 +327,7 @@ section {
   .custom-btn {
     width: 130px;
     height: 40px;
-    color: #fff;
+    color: #11212D;
     border-radius: 5px;
     padding: 10px 25px;
     font-family: 'Lato', sans-serif;
@@ -346,9 +337,7 @@ section {
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
+     
     outline: none;
   }
   .btn-9 {
@@ -365,26 +354,8 @@ section {
     width: 100%;
     height: 100%;
      background-color: #1fd1f9;
-  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  background-image: linear-gradient(315deg, #02495a 0%, #b621fe 74%);
     transition: all 0.3s ease;
-  }
-  .btn-9:hover {
-    background: transparent;
-    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-      inset -4px -4px 6px 0 rgba(255,255,255,.5),
-      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
-    color: #fff;
-  }
-  .btn-9:hover:after {
-    -webkit-transform: scale(2) rotate(180deg);
-    transform: scale(2) rotate(180deg);
-    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-      inset -4px -4px 6px 0 rgba(255,255,255,.5),
-   
-      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);  
-      overflow: hidden;
   }
   
   
@@ -393,7 +364,7 @@ section {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #f2f2f2;
+    background-color: #9b9b9b;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 9999;
@@ -427,24 +398,6 @@ section {
     cursor: pointer;
   }
  
-
-
-
-
-.darkModeCard {
-  background-color: black;
-  color: white;
-}
-
-.lightModeBtn {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  z-index: 10000;
-  background-color: #0a49f63d;
-  border-radius: 50%;
-  cursor: pointer;
-}
 h1 {
   text-align: center;
   margin: 35px 0 20px 0 !important;
@@ -452,11 +405,11 @@ h1 {
 
 
 .button-34 {
-  background: #5E5DF0;
+  background: #4A5C6A;
   border-radius: 999px;
-  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-shadow: #4A5C6A 0 10px 20px -10px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #271f1f;
   cursor: pointer;
   font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
   font-size: 16px;
@@ -477,7 +430,7 @@ h1 {
   margin-bottom: 5px;
   }
   .contact-title h1 {
-  color: #fff;
+  color: #4A5C6A;
   margin-bottom: 8px;
   padding-top: 30px;
   text-transform: uppercase;
@@ -518,7 +471,7 @@ h1 {
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ff2525;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   outline: none;
@@ -558,7 +511,7 @@ h1 {
   background-color: #D54C76;
   text-transform: uppercase;
   font-size: 16px;
-  color: #fff;
+  color: #ff0000;
   display: inline-block;
   text-decoration: none;
   border-radius: 50px;
@@ -616,7 +569,7 @@ h1 {
   /* يمكنك تعديل الخصائص حسب احتياجاتك */
 }
 body {
-  background-color: #d1f3e7;
+ 
 }
 
 #title-Tag-Line {
@@ -721,7 +674,7 @@ body {
   left: 0;
   width: 20px;
   height: 20px;
-  background-color: #ffc400;
+  background-color: #13226c;
   border-radius: 50%;
   pointer-events: none;
   transition: transform 0.3s ease-out;
