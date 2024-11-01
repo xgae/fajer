@@ -181,16 +181,28 @@
                         </div>
                     </section>
                     
-                    <section class="cards contact" id="contact">
-                        <h2 class="title"> <form action="https://formsubmit.co/fajer5739s@gmail.com" method="POST">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_subject" value="New email! that fucking good!">
-                            <input type="text" class="email formEntry" placeholder="Email" required/>                            <input type="hidden" name="_next" value="https://xgae.github.io/fajer/pages/thankyou.html"> 
-                            <textarea class="message formEntry" placeholder="Message" required></textarea>                            <button class="button-34" role="button">send</button>
-                            <a>    write anything! :) </a>
-                       </form>
-                    </h2>
-                </section>
+                   <section class="cards contact" id="contact">
+    <h2 class="title">
+        <form action="https://formsubmit.co/fajer5739s@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New email! that’s good!">
+            
+            <!-- حقل البريد الإلكتروني مع name -->
+            <input type="text" name="email" class="email formEntry" placeholder="Email" required />
+
+            <!-- إعادة توجيه بعد الإرسال -->
+            <input type="hidden" name="_next" value="https://xgae.github.io/fajer/pages/thankyou.html">
+
+            <!-- حقل الرسالة مع name -->
+            <textarea name="message" class="message formEntry" placeholder="Message" required></textarea>
+            
+            <!-- زر الإرسال -->
+            <button type="submit" class="button-34" role="button">Send</button>
+        </form>
+        <a>write anything! :)</a>
+    </h2>
+</section>
+
            </div>                 
           </div>
                         
